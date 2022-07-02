@@ -12,7 +12,7 @@ const Award = () => {
             {award.map((val) => {
               return (
                 <>
-                  <div className='content flex'>
+                  <div key={val.id} className='content flex'>
                     <div className='contentLeft'>
                       <h1>{val.title}</h1>
                       <p>{val.desc}</p>

@@ -11,7 +11,7 @@ const Creative = () => {
                 {creative.map((val) => {
                   return (
                     <>
-                      <div className='content flex'>
+                      <div key={val.id} className='content flex'>
                         <div className='contentLeft'>
                           <i className='fa fa-quote-left quote'></i>
                           <h1>{val.heading}</h1>

@@ -22,7 +22,7 @@ const Portfolio = () => {
             {portfolio.map((val) => {
               return (
                 <>
-                  <div className='itemContent flex'>
+                  <div key={val.id} className='itemContent flex'>
                     <Common title='portfolio' />
                     <div className='contentRight'>
                       <img src={val.cover} alt='' />

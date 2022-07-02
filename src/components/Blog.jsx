@@ -13,7 +13,7 @@ const Blog = () => {
               {blog.map((val) => {
                 return (
                   <>
-                    <div className='img'>
+                    <div key={val.id} className='img'>
                       <img src={val.cover} alt='' />
                     </div>
                   </>

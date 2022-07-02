@@ -19,7 +19,7 @@ const Educations = () => {
                     {education.map((val) => {
                       return (
                         <>
-                          <div className='box flex'>
+                          <div key={val.id} className='box flex'>
                             <h1>{val.id}.</h1>
                             <h2>
                               {val.name} <br />

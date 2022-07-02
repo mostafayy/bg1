@@ -15,7 +15,7 @@ const Work = () => {
                 {work.map((val) => {
                   return (
                     <>
-                      <div className='box flex'>
+                      <div key={val.id} className='box flex'>
                         <button className='primary-btn'>{val.years}</button>
                         <h2>
                           {val.compnay} <br />

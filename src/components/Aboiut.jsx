@@ -10,10 +10,10 @@ const About = () => {
           <div className='itemContent'>
             <Common title='about me' />
             {about.map((data) => {
-              const { name, email, phone, fax, dob, nation, heading, title, desc } = data
+              const { name, email, phone, fax, dob, nation, heading, title, desc,id } = data
               return (
                 <>
-                  <div className='content flex'>
+                  <div key={id} className='content flex'>
                     <div className='contentLeft'>
                       <div className='details flex'>
                         <h2 className='h2Top'>Name :</h2>

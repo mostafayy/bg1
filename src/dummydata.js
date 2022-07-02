@@ -1,20 +1,20 @@
 export const homedata = [
     {
-      id: 1,
+      id: '1',
       name: "Hello!  My Name is Beckham Roy",
       desc: "I design thoughtful digital experiences & beautiful brand aesthetics. I provide high quality web development services.",
       cover: "./images/home/home-slider-1.jpg",
       signature: "./images/home/signature1.png",
     },
     {
-      id: 2,
+      id: '2',
       name: "I am Creative UI/UX Designer",
       desc: "Working with a strong focus on design and user experience. I create digital experiences for brands and companies.",
       cover: "./images/home/home-slider-2.jpg",
       signature: "./images/home/signature1.png",
     },
     {
-      id: 3,
+      id: '3',
       name: "Yes I Believe in Quality",
       desc: "Working with a strong focus on design and user experience. I create digital experiences for brands and companies.",
       cover: "./images/home/home-slider-3.jpg",
@@ -23,6 +23,7 @@ export const homedata = [
   ]
   export const about = [
     {
+      id: '9',
       name: "Beckham Roy",
       email: "beckham@gmail.com",
       phone: "(123) - 456-7890",
@@ -37,6 +38,7 @@ export const homedata = [
   
   export const creative = [
     {
+      id: '8',
       heading: "Good Design Keeps the User Happy, the Manufacturer in the Black and the Aesthete Unoffended.",
       title: "we're creative",
       desc: "Ensured mock-ups met both visual and textual branding standards. Defined and documented website design standards when needed. Designed adaptive layouts to maintain a consistent user experience across the product. Created clickable prototypes when needed.",
@@ -46,25 +48,25 @@ export const homedata = [
   
   export const education = [
     {
-      id: "01",
+      id: '7',
       name: "University of Design",
       program: "Bachelor of Arts",
       year: "2012 - 2013",
     },
     {
-      id: "02",
+      id: '11',
       name: "Boston University",
       program: "Visual art & Design",
       year: "2011 - 2012",
     },
     {
-      id: "03",
+      id: '12',
       name: "Boston University",
       program: "Degree of Design",
       year: "2009 - 2011",
     },
     {
-      id: "04",
+      id: '13',
       name: "Design University",
       program: "Degree of Web Design",
       year: "2007 - 2009",
@@ -72,21 +74,25 @@ export const homedata = [
   ]
   export const work = [
     {
+      id: '14',
       years: "2016 - 2013",
       compnay: "Panara Media  -  Art Director",
       desc: "Execute all visual design stages from concept to final hand-off to engineering.",
     },
     {
+      id: '15',
       years: "2013 - 2012",
       compnay: "LinkSture Web  -  Project Manager",
       desc: "Established UX design as the first stage of Web and mobile app developments.",
     },
     {
+      id: '16',
       years: "2012 - 2011",
       compnay: "Matrix Media  -  Visual / UI Designer",
       desc: "Led UX design on many mobile applications that redefined the market landscape.",
     },
     {
+      id: '17',
       years: "2011 - 2010",
       compnay: "Creatika Agency  -  Graphic Designer",
       desc: "Researched, strategized and launched best UX improvements for nonprofit sites.",
@@ -94,7 +100,7 @@ export const homedata = [
   ]
   export const portfolio = [
     {
-      id: 1,
+      id: '18',
       cover: "./images/portfolio/port1.jpg",
       title: "Other portfolio I've Designed.",
       desc: "Created strong design concepts and developed design layouts for a variety of creative projects using Photoshop and Illustrator, you can see more at my portfolio.",
@@ -105,7 +111,7 @@ export const homedata = [
       p5: "I design for the woman who loves being a woman.",
     },
     {
-      id: 2,
+      id: '19',
       cover: "./images/portfolio/port2.jpg",
       title: "Spinnerei Wannweil",
       desc: "Lorem Ipsum has been the industry standard dummy text since the when an unknown printer took a galley of type and scrambled it  make a type specimen book. It has survived  only five centuries .",
@@ -116,7 +122,7 @@ export const homedata = [
       p5: "Design is not just what it looks like and feels like.",
     },
     {
-      id: 3,
+      id: '20',
       cover: "./images/portfolio/port3.jpg",
       title: "Shift Management",
       desc: "Lorem Ipsum has been the industry standard dummy text since the when an unknown printer took a galley of type and scrambled it  make a type specimen book. It has survived  only five centuries, but also the leap electronic typesetting, remaining essentially unchanged.",
@@ -127,7 +133,7 @@ export const homedata = [
       p5: "Design is not just what it looks like and feels like.",
     },
     {
-      id: 4,
+      id: '21',
       cover: "./images/portfolio/port4.jpg",
       title: "Mahl Cafe",
       desc: "Lorem Ipsum has been the industry standard dummy text since the when an unknown printer took a galley of type and scrambled it  make a type specimen book. It has survived  only five centuries, but also the leap electronic typesetting, remaining essentially unchanged.",
@@ -140,6 +146,7 @@ export const homedata = [
   ]
   export const award = [
     {
+      id: '22',
       title: "I'm not aiming for an Award.",
       desc: "Whenever you want to achieve something, keep your eyes open, concentrate and make sure you know exactly what it is you want. No one can hit their target with their eyes closed. To accomplish great things we must not only act, but also dream, not only plan, but also believe.",
       cover: "./images/award-bg.jpg",
@@ -151,21 +158,27 @@ export const homedata = [
   ]
   export const blog = [
     {
+      id: '23',
       cover: "./images/blog-1.jpg",
     },
     {
+      id: '24',
       cover: "./images/blog-2.jpg",
     },
     {
+      id: '25',
       cover: "./images/blog-3.jpg",
     },
     {
+      id: '26',
       cover: "./images/blog-4.jpg",
     },
     {
+      id: '27',
       cover: "./images/blog-5.jpg",
     },
     {
+      id: '28',
       cover: "./images/blog-6.jpg",
     },
   ]

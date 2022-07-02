@@ -18,10 +18,11 @@ const Home = () => {
       <div className='container'>
         <Slider {...settings}>
           {homedata.map((val) => {
-            const { name, desc, signature, cover } = val
+            const { name, desc, signature, cover,id } = val
+            console.log(id)
             return (
               <>
-                <div className='itemContent flexSB'>
+                <div key={val.id.toString()} className='itemContent flexSB'>
                   <div className='left'>
                     <h1>{name}</h1>
                     <p>{desc}</p>
